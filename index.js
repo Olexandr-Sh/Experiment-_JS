@@ -27,3 +27,8 @@ let earthName = 'Земля';
 let currentUserName = "Ім'я користувача";
 console.log('earthName', typeof earthName);
 console.log('currentUserName', typeof currentUserName);
+
+var Sales = "Toyota"; function CarTypes(name) { if (name == "Honda") { return name; } else { return "Извините, мы не продаём " + name + "."; } } var car = { myCar: "Saturn", getCar: CarTypes("Honda"), special: Sales };
+console.log(car.myCar);
+console.log(car.getCar);
+console.log(car.special);
